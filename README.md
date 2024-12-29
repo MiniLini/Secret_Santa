@@ -4,10 +4,10 @@ This Java-based Secret Santa program assigns each participant a unique moniker a
 
 ## Features
 
-- Assigns unique monikers to participants for added fun and anonymity.
+- Accepts individuals by name and then assigns unique monikers to each participant for added fun and anonymity.
 - Ensures participants do not get themselves as their Secret Santa.
 - Randomized pairing of participants.
-- Cross-platform console screen clearing for privacy during entry.
+- Cross-platform console screen clearing for privacy during entry **KEY!**.
 
 ## Prerequisites
 
@@ -17,12 +17,12 @@ This Java-based Secret Santa program assigns each participant a unique moniker a
 
 2. **IDE or Text Editor**:
 
-   - Use an IDE like IntelliJ IDEA, Eclipse, or a text editor like VS Code to run the program.
+   - Use an IDE like IntelliJ IDEA, Eclipse, or a text editor like VS Code to run the program. **I made this in VS Code and ran with the latest version of java**
 
 ## Files
 
 - **`SecretSanta.java`**: The main program file.
-- **Executable ************`.exe`************ (Optional)**: To be added for easier use without compiling.
+- **Executable ************`.exe`************ (Optional)**: To be added for easier use without compiling. **<----release date TBD**
 
 ## How to Run
 
@@ -32,11 +32,11 @@ This Java-based Secret Santa program assigns each participant a unique moniker a
 2. Open a terminal/command prompt and navigate to the folder containing `SecretSanta.java`.
 3. Compile the program:
    ```
-   javac SecretSanta.java
+   javac SecretSanta.class
    ```
 4. Run the program:
    ```
-   java SecretSanta
+   java SecretSanta.java
    ```
 
 ### Using the Executable
@@ -50,12 +50,12 @@ This Java-based Secret Santa program assigns each participant a unique moniker a
 
 1. **Input Participants:**
 
-   - Participants enter their names one by one.
+   - Participants enter their names confidentially one by one.
    - Each participant is assigned a unique moniker from a predefined list.
 
 2. **Anonymity and Privacy:**
 
-   - The console screen clears after each participant's input to maintain privacy.
+   - The program prompts each individual that enters their name to hit enter to clear the screen after getting their mniker to maintain privacy seen in results.
 
 3. **Pairing Secret Santas:**
 
@@ -64,7 +64,7 @@ This Java-based Secret Santa program assigns each participant a unique moniker a
 
 4. **Display Results:**
 
-   - The program outputs moniker-based assignments.
+   - The program outputs Secrets Santas by their moniker and pairs them with a participants real name, maintaining anonymity.
 
 ## Example Output
 
