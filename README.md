@@ -122,5 +122,6 @@ For questions or suggestions, please open an issue in the repository.
 
 Happy Gifting!
 
-i also need to separate these files as i will have different versions of this program, a java file and a android sdk
+I also need to separate these files as I will have different versions of this program, a java file and a android sdk.
+--Update: I made the android apk! It works fantastically.--
 
